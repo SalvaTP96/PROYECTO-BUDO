@@ -1,0 +1,186 @@
+body{
+    background-image: url(/Cafeteria-Budo/images/imagen-header1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444444;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-block-size: 350px;
+
+}
+
+/*BARRA DE NAVEGACION*/
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    transition: 0.5s;
+}
+.navbar-brand, .navbar-nav .nav-link:hover {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/*CONTENIDO PRINCIPAL*/
+
+.container-1{
+    float: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    margin-right:15vw;
+    margin-left:15vw;
+    margin-bottom:15vw;
+    margin-top:5vw;
+    border-radius: 16px;
+
+
+}
+
+h3{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+#imgwhatsapp{
+    width: 150px;
+    margin-top: 100px;
+}
+#imgllamar{
+    width: 300px;
+}
+
+.unstyle-button {
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 20px 30px;
+    perspective: 30rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
+  }
+  
+  .unstyle-button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(255, 255, 255, 0.678), rgba(255, 255, 255, 0.308));
+    z-index: 1;
+    transition: background 3s;
+  }
+  
+  .unstyle-button:hover::before {
+    animation: rotate 1s;
+    transition: all .5s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(180deg);
+    }
+  
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  
+
+#mandar-whatsapp{
+    margin-top: 100px;
+    margin-bottom:60px
+}
+
+/*FOOTER*/
+
+footer{
+
+    clear: both;
+    background-color: #444444;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+
+    width: 100%;;
+    
+    
+}#footer-media, #sep, #map{
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 33%;
+
+}
+
+#zona-inferior{
+    clear: both;
+}
+
+#derechos-iconos{
+    color: #ffffff;
+    font-size: 10px;
+}
+
+#sep{
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    height: 200px;
+}
+
+#whatsapp, #tiktok, #instagram{
+    float: relative;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    margin-left: 20%;
+    
+}
+
+@media (max-width: 600px){
+
+    
+    #logo-bar-footer{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 500px){
+
+    
+    #logo-bar-footer{
+        width: 140px;
+        height: 140px;
+    }
+}
