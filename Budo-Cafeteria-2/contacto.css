@@ -1,0 +1,102 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url(images/imagen-header1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .9);
+    font-size: 1.2em;
+}
+
+.navbar .navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar .navbar-collapse .navbar-nav{
+    gap: 30px;
+    padding: 10px;
+}
+
+.navbar .navbar-collapse li a{
+    position: relative;
+}
+
+.navbar .navbar-collapse li a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #EDAA18;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .4s ease-in-out;
+}
+
+.navbar .navbar-collapse li a:hover::before{
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+
+
+
+
+footer{
+    background: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .footer .social-media ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer .footer .social-media ul li{
+    list-style: none;
+    padding: 5px;
+    transition:.7s ease-out;
+}
+
+footer .footer .social-media ul .whatsapp:hover{
+    background-color: #EDAA18;
+}
+
+footer .footer .social-media ul .tiktok:hover{
+    background-color: #EDAA18;
+}
+
+footer .footer .social-media ul .instagram:hover{
+    background-color: #EDAA18;
+}
+
+footer .footer .derechos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+footer .footer .derechos .copyright p{
+    color: #ffffff;
+}

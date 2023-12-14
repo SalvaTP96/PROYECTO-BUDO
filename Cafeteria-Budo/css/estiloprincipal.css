@@ -9,7 +9,7 @@ body{
 
 
 header{    
-    background-image:url("/Cafeteria-Budo/images/imagen-header1.jpg");
+    background-image:url("/images/imagen-header1.jpg");
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: center;      
@@ -32,7 +32,7 @@ footer{
 }
 
 #enlaces{
-    background-image: url("/Cafeteria-Budo/images/imagen-body1.png");
+    background-image: url("/images/imagen-body1.png");
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: relative;      
