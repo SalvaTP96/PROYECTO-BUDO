@@ -65,6 +65,10 @@ footer .footer{
     flex-direction: column;
 }
 
+footer .footer .social-media{
+    margin-right: 40px;
+}
+
 footer .footer .social-media ul{
     display: flex;
     align-items: center;
@@ -72,31 +76,38 @@ footer .footer .social-media ul{
     gap: 40px;
 }
 
-footer .footer .social-media ul li{
+footer .footer .social-media ul li {
     list-style: none;
+    border: 2px solid white;
     padding: 5px;
-    transition:.7s ease-out;
+    border-radius: 50%;
+    transition:.4s ease-out;text-decoration: none;
+    
 }
 
-footer .footer .social-media ul .whatsapp:hover{
-    background-color: #EDAA18;
+footer .footer .social-media ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 48px;
 }
 
-footer .footer .social-media ul .tiktok:hover{
-    background-color: #EDAA18;
-}
-
-footer .footer .social-media ul .instagram:hover{
-    background-color: #EDAA18;
+footer .footer .social-media ul .item:hover{
+    background-color: #a98366;
+    border-color: #a98366;
 }
 
 footer .footer .derechos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
 }
 
-footer .footer .derechos .copyright p{
+footer .footer .derechos p{
     color: #ffffff;
+    font-size: 1.2em;
 }

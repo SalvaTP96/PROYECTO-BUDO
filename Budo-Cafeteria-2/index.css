@@ -161,7 +161,7 @@ body{
 }
 
 .section-2{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-henry-han-19533947.jpg); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240204_083114553.MP.jpg); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -292,7 +292,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    padding: 150px 0 150px 0;
+    padding: 100px 0 100px 0;
     width: 100%;
 }
 
@@ -308,7 +308,7 @@ body{
     align-items: center;
     display: flex; 
     flex-wrap: nowrap; 
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 10px;
 }
 
@@ -319,8 +319,8 @@ body{
 }
 
 .donde-estamos .container-general .container-imagen .imagen-local img{
-    width: 550px;
-    height: 700px;
+    width: 500px;
+    height: 650px;
     border-radius: 8px;
     box-shadow: 0px 0px 65px 42px rgba(0,0,0,0.75);
 }
@@ -331,14 +331,13 @@ body{
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, .4);
     padding: 10px;
     border-radius: 8px;
 
 }
 
 .donde-estamos .container-general .container-texto .texto p{
-    font-size: 2em;
+    font-size: 1.6em;
     text-shadow:
     1px 1px 1px rgb(0, 0, 0),
     0 0 1em black,
