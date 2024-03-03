@@ -18,9 +18,6 @@ body{
     z-index: 5;
 }
 
-.navbar:hover{
-    background-color: rgba(0, 0, 0, .4) !important;
-}
 
 .navbar .navbar-collapse{
     display: flex;
@@ -110,31 +107,25 @@ body{
 }
 
 .enlaces #carta{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-алексей-вечерин-9544250.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.enlaces #promociones{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-алексей-вечерин-9544250.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_183533881.webp);
     background-position: center;
     background-size: cover;
 }
 
-.enlaces #reservas{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-алексей-вечерин-9544250.jpg);
+.enlaces #promociones{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_185029756.webp);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #contacto{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-chepté-cormani-1416530.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-алексей-вечерин-9544250.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
   background-position: center;
   background-size: cover;
 }
