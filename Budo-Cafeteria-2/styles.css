@@ -56,8 +56,8 @@ body{
     transform: scaleX(1);
 }
 
-.section-1{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp); 
+.section-1, .section-galeria{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -108,25 +108,25 @@ body{
 }
 
 .enlaces #carta{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_183533881.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_183533881.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #promociones{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_185029756.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240229_185029756.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #contacto{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -153,7 +153,7 @@ body{
 }
 
 .section-2{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240204_083114553.MP.webp); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240204_083114553.MP.jpg); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -273,7 +273,7 @@ body{
 }
 
 .section-3{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-musa-ortaç-5609092.webp); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-musa-ortaç-5609092.jpg); 
     background-size: cover; 
     background-position: bottom;
     background-attachment: fixed;
@@ -337,13 +337,6 @@ body{
 }
 
 /*GALERIA*/
-
-.section-galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp); 
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-}
 
 .galeria{
     max-width: 1200px;
@@ -421,7 +414,7 @@ footer .footer .social-media ul li a {
     font-size: 48px;
 }
 
-footer .footer .social-media ul .item:hover{
+footer .footer .social-media ul li:hover{
     background-color: #a98366;
     border-color: #a98366;
 }
