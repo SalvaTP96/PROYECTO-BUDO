@@ -79,24 +79,24 @@ body{
 
 .container-enlaces{
     background-color: #6c4f37;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .enlaces {
-  width: 80vw;
-  height: 800px;
+  max-width: 1400px;
+  height: 700px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  margin-left: 10vw;
+  margin: 0 auto;
   gap: 20px;
   padding: .4em;
 }
 
 .enlaces a {
   height: 100%;
-  flex: 1;
+  flex: 0.5;
   overflow: hidden;
   cursor: pointer;
   border-radius: 2px;
@@ -432,6 +432,31 @@ footer .footer .derechos p{
 }
 
 @media screen and (max-width:1300px){
+    
+    .logo-principal img{
+        width: 700px;
+        height: auto;
+    }
+
+    .container-enlaces{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .enlaces {
+        width: 1000px;
+        height: 500px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+        padding: .4em;
+      }
+
+      .home{
+        padding-top: 150px;
+        padding-bottom: 150px;
+      }
     .donde-estamos .container-general .container-imagen .imagen-local img{
         width: 450px;
         height: 600px;
@@ -444,18 +469,11 @@ footer .footer .derechos p{
 }
 
 @media screen and (max-width:992px){
-    .logo-principal img{
-        width: 700px;
-        height: auto;
-    }
-
-    .container-enlaces{
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
 
     .enlaces{
         flex-direction: column;
+        width: 100%;
+        padding: 20px;
     }
 
     .enlaces a span{
