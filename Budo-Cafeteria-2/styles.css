@@ -10,7 +10,7 @@ body{
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .85);
     transition: background-color .5s ease;
     font-size: 1.4em;
     position: fixed !important;
@@ -302,17 +302,18 @@ body{
     flex-wrap: nowrap; 
     margin-top: 100px;
     padding: 10px;
+    gap: 10%;
 }
 
 .donde-estamos .container-general .container-imagen{
-    width: 50%;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .donde-estamos .container-general .container-imagen .imagen-local img{
-    width: 500px;
-    height: 650px;
+    width: 650px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0px 0px 65px 42px rgba(0,0,0,0.75);
 }
@@ -457,10 +458,7 @@ footer .footer .derechos p{
         padding-top: 150px;
         padding-bottom: 150px;
       }
-    .donde-estamos .container-general .container-imagen .imagen-local img{
-        width: 450px;
-        height: 600px;
-    }
+
 
     .donde-estamos .container-general .container-texto .texto p{
         font-size: 1.6em;
@@ -480,9 +478,13 @@ footer .footer .derechos p{
         transform: rotate(0);
     }
 
+    .donde-estamos .container-general{
+        flex-direction: column-reverse;
+    }
+
     .donde-estamos .container-general .container-imagen .imagen-local img{
-        width: 350px;
-        height: 500px;
+        width: 500px;
+        height: 350px;
     }
 
     .donde-estamos .container-general .container-texto .texto p{
