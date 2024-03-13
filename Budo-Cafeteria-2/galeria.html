@@ -6,13 +6,14 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="galeria.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="animaciones.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar">
                 <button class="navbar-toggler" 
                         type="button" 
                         data-toggle="collapse" 
@@ -25,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio</a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>                        
                         <li class="nav-item">
                             <a class="nav-link" href="#">Carta</a>
@@ -34,13 +35,10 @@
                             <a class="nav-link" href="#">Promociones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reservas</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Galeria</a>
+                            <a class="nav-link" href="galeria.html">Galeria</a>
                         </li>
 
                     </ul>
@@ -49,89 +47,47 @@
             <div>
         </header>
 
-        <div class="galeria">
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+        <section class="section-1 section-galeria">
+            <div class="galeria">
+                <div class="imagen imagen-1">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-2">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-3">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                
+                <div class="imagen imagen-4">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-5">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-6">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-7">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
-            <div class="imagen">
-                <img src="images/imagen-header1.jpg" alt="">
-                <div class="container-link">
-                    <a href="http://" target="_blank">
-                        <div class="link">
-                            <i class='bx bxl-instagram'></i>
-                        </div>
-                    </a>
+                <div class="imagen imagen-8">
+                    <img src="images/imagen-header1.jpg" alt="">
                 </div>
-            </div>
+                <div class="imagen imagen-9">
+                    <img src="images/imagen-header1.jpg" alt="">
+                </div>
+                <div class="imagen imagen-10">
+                    <img src="images/imagen-header1.jpg" alt="">
+                </div>
+                <div class="imagen imagen-11">
+                    <img src="images/imagen-header1.jpg" alt="">
+                </div>
+                
 
-        </div>
+            </div>
+        </section>
+            
 
         <footer>
             <div class="footer">
@@ -222,5 +178,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="script.js" async defer></script>
+        <script src="script-scroll.js" async defer></script>
+
     </body>
 </html>
