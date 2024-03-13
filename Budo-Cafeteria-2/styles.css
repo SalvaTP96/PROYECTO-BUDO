@@ -57,7 +57,7 @@ body{
 }
 
 .section-1{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -120,13 +120,13 @@ body{
 }
 
 .enlaces #contacto{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp);
     background-position: center;
     background-size: cover;
 }
 
 .enlaces #galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp);
   background-position: center;
   background-size: cover;
 }
@@ -153,7 +153,7 @@ body{
 }
 
 .section-2{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240204_083114553.MP.jpg); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/PXL_20240204_083114553.MP.webp); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -273,7 +273,7 @@ body{
 }
 
 .section-3{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-musa-ortaç-5609092.jpg); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/pexels-musa-ortaç-5609092.webp); 
     background-size: cover; 
     background-position: bottom;
     background-attachment: fixed;
@@ -339,7 +339,7 @@ body{
 /*GALERIA*/
 
 .section-galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.webp); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
