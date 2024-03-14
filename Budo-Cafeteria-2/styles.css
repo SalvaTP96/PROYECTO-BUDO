@@ -126,7 +126,7 @@ body{
 }
 
 .enlaces #galeria{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/Sin\ título-1.jpg);
   background-position: center;
   background-size: cover;
 }
