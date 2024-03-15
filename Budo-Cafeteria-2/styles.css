@@ -339,7 +339,7 @@ body{
 
 /*GALERIA*/
 .section-galeria{
-    background: linear-gradient(15deg, rgb(0, 0, 0), black, #a98366,#a98366, black);
+    background: linear-gradient(15deg, rgb(0, 0, 0), black, rgb(169, 131, 102),#a98366, black);
 }
 .galeria{
     max-width: 1200px;
@@ -374,6 +374,66 @@ body{
     grid-column-start: span 3;
 }
 
+/*CONTACTO*/
+
+.section-contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .5)), url(images/imagen-header1.jpg);
+    background-size: cover; 
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.section-contact h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+.container {
+    margin: 0 auto;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], textarea, input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  input[type=submit] {
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    margin: auto;
+    width: 60%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a98366;
+    border-color: #a98366;
+  }
 
 
 footer{
@@ -508,8 +568,7 @@ footer .footer .derechos p{
 
     .imagen:nth-child(9){
         grid-column-start: span 1;
-    }
-
+    }  
 }
 
 @media screen and (max-width:760px){
@@ -550,6 +609,8 @@ footer .footer .derechos p{
     .donde-estamos .container-general .container-texto{
         width: 80%;
     }
+
+  
 
 }
 
