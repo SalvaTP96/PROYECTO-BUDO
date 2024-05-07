@@ -428,6 +428,11 @@ footer .footer .derechos p{
    
 }
 
+.carta-container ul{
+    list-style-type: none;
+    padding: 0;
+}
+
 .carta-btn {
     outline: 0;
     display: inline-flex;
@@ -486,14 +491,9 @@ footer .footer .derechos p{
     display: block;  
 }
 
-.carta-container ul{
-    list-style-type: none;
-    padding: 0;
-}
 
-.carta-container .hidden{
-    display: none;
-}
+
+
 
 /*GALERIA*/
 .section-galeria{
