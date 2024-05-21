@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="es">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Cafeteria Budo-Contacto</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="animaciones.css">
+        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
+
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar">
@@ -45,143 +49,42 @@
             </nav>
             <div>
         </header>
-
-            <section class="section-carta">
-                
-                <div class="carta-container">
-                    
-                        <button class="carta-btn btn-1" id="toggleCarta"><i class="animation"></i>DESAYUNOS<i class="animation"></i></button>
-                        <div class="hidden" id="carta1">
-                            <div class="carta-item">
-                                <h2>Cafes</h2>
-                                <ul>
-                                    <li>Cafe solo</li>
-                                    <li>Cafe cortado</li>
-                                    <li>Cafe con leche</li>
-                                    <li>Cafe bombon</li>
-                                    <li>Cafe americano</li>
-                                    <li>Carajillo</li>
-                                    <li>Carajillo quemado</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="carta-item">
-                                <h2>Tostadas</h2>
-                                <ul>
-                                    <li>Aceite</li>
-                                    <li>Tomate</li>
-                                    <li>Mantequilla</li>
-                                    <li>Mermelada</li>
-                                    <li>Jamon york</li>
-                                    <li>Queso</li>
-                                    <li>Jamon al corte</li>
-                                </ul>
-                            </div>
-
-                            <div class="carta-item">
-                                <h2>Zumos</h2>
-                                <ul>
-                                    <li>Zumo de naranja natural</li>
-                                    <li>Zumo de melocoton</li>
-                                    <li>Zumo de piña</li>
-                                    <li>Vaso de leche</li>
-                                    <li>Nesquik</li>
-                                    <li>Batido de chocolate</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <button class="carta-btn btn-2" id="toggleCarta2"><i class="animation"></i>TAPAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta2">
-                            <h2>Tapas</h2>
-                            <ul>
-                                <li>Ensaladilla rusa</li>
-                                <li>Magro con tomate</li>
-                                <li>Tortilla de patatas</li>
-                            </ul>
-                            <h2>Raciones</h2>
-                            <ul>
-                                <li>Queso en tempura</li>
-                                <li>Patatas a la brava</li>
-                                <li>Calamares</li>
-                            </ul>
-                            <h2>Por unidades</h2>
-                            <ul>
-                                <li>Croquetas(jamon, rabo de toro, pollo)</li>
-                                <li>Torreznos</li>
-                                <li>Tortas de camaron</li>
-                            </ul>
-                        </div>
-
-                        <button class="carta-btn btn-3" id="toggleCarta3"><i class="animation"></i>BOCADILLOS<i class="animation"></i></button>
-                        <div class="hidden" id="carta3">
-                            <h2>Tapas</h2>
-                            <ul>
-                                <li>Ensaladilla rusa</li>
-                                <li>Magro con tomate</li>
-                                <li>Tortilla de patatas</li>
-                            </ul>
-                            <h2>Raciones</h2>
-                            <ul>
-                                <li>Queso en tempura</li>
-                                <li>Patatas a la brava</li>
-                                <li>Calamares</li>
-                            </ul>
-                            <h2>Por unidades</h2>
-                            <ul>
-                                <li>Croquetas(jamon, rabo de toro, pollo)</li>
-                                <li>Torreznos</li>
-                                <li>Tortas de camaron</li>
-                            </ul>
-                        </div>
-
-                        <button class="carta-btn btn-4" id="toggleCarta4"><i class="animation"></i>HAMBURGUESAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta4">
-                            <h2>Tapas</h2>
-                            <ul>
-                                <li>Ensaladilla rusa</li>
-                                <li>Magro con tomate</li>
-                                <li>Tortilla de patatas</li>
-                            </ul>
-                            <h2>Raciones</h2>
-                            <ul>
-                                <li>Queso en tempura</li>
-                                <li>Patatas a la brava</li>
-                                <li>Calamares</li>
-                            </ul>
-                            <h2>Por unidades</h2>
-                            <ul>
-                                <li>Croquetas(jamon, rabo de toro, pollo)</li>
-                                <li>Torreznos</li>
-                                <li>Tortas de camaron</li>
-                            </ul>
-                        </div>
-
-                        <button class="carta-btn btn-5" id="toggleCarta5"><i class="animation"></i>BEBIDAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta5">
-                            <h2>Tapas</h2>
-                            <ul>
-                                <li>Ensaladilla rusa</li>
-                                <li>Magro con tomate</li>
-                                <li>Tortilla de patatas</li>
-                            </ul>
-                            <h2>Raciones</h2>
-                            <ul>
-                                <li>Queso en tempura</li>
-                                <li>Patatas a la brava</li>
-                                <li>Calamares</li>
-                            </ul>
-                            <h2>Por unidades</h2>
-                            <ul>
-                                <li>Croquetas(jamon, rabo de toro, pollo)</li>
-                                <li>Torreznos</li>
-                                <li>Tortas de camaron</li>
-                            </ul>
-                        </div>
-                    
-                </div>
-            </section>
             
+        <section class="section-promotions">
+            <div class="promotions-container">
+                <div class="promotion-item">
+                    <h2>DESAYUNO</h2>
+                    <p>Cafe <br>+<br> 1/2 tomate/aceite</p>
+                    <h1>2€</h1>
+                </div>
+                <div class="promotion-item">
+                    <h2>ALMUERZO</h2>
+                    <p>Bocadillo <br>+<br> 1 bebida y cafe</p>
+                    <h1>6€</h1>
+                </div>
+                <div class="promotion-item">
+                    <h2>5 MINI</h2>
+                    <h2>BURGUER</h2>
+                    <h1>15€</h1>
+                </div>
+                <div class="promotion-item">
+                    <h2>VERBENA 8</h2>
+                    <h2>MONTADITOS</h2>
+                    <h1>14,50€</h1>
+                </div>
+                <div class="promotion-item">
+                    <h2>CUBO</h2>
+                    <h2>6 1/5</h2>
+                    <h1>4,50€</h1>
+                </div>
+                <div class="promotion-item">
+                    <h2>VIERNES</h2>
+                    <p>De 19:30 a 21:30</p>
+                    <p>CAÑA de 33cl</p>
+                    <h1>1€</h1>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="footer">

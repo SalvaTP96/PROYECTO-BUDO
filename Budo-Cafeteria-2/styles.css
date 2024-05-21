@@ -400,7 +400,7 @@ footer .footer .derechos p{
     0 0 0.2em black;
 }
 
-/*CARTA*/
+/*CARTA PAGINA*/
 
 .section-carta{
     display: flex;
@@ -468,11 +468,11 @@ footer .footer .derechos p{
     }
   }
 
-#carta, #carta2, #carta3, #carta4, #carta5 {
+#carta1, #carta2, #carta3, #carta4, #carta5 {
     display: none;
 }
 
-#carta.visible {
+#carta1.visible {
     display: block;
 }
 
@@ -491,7 +491,71 @@ footer .footer .derechos p{
     display: block;  
 }
 
+/*PROMOCIONES*/
 
+.section-promotions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/imagen-header1.jpg);
+    background-size: cover; 
+    background-position: bottom;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.promotions-container{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        3, 1fr
+    );
+    grid-gap: 30px;
+    max-width: 1100px;
+    grid-column-gap: 100px;
+}
+
+.promotion-item{
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    background: rgba(169, 131, 102, 0.58);
+    border: 2px solid #a98366;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+
+}
+
+.promotion-item h1{
+    font-size: 4,5rem;
+    font-weight: bolder;
+}
+
+.promotion-item h2{
+    font-size: 2rem;
+    letter-spacing: 3px;
+
+}
+
+.promotion-item p{
+    font-size: 1.2rem;
+}
+
+.promotion-item:hover{
+    border: 2px solid white;
+    transform: scale(1.05) ;
+}
 
 
 
@@ -661,6 +725,24 @@ footer .footer .derechos p{
         font-size: 1.4em;
     }
 
+    /*PROMOCIONES*/
+
+    .section-promotions{
+        padding: 100px 0;
+    }
+
+    .promotions-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 30px;
+
+    }
+
+    .promotion-item{
+        width: 350px;
+        height: 220px;
+    }
+
+}
 
 
 @media screen and (max-width:760px){
@@ -749,8 +831,20 @@ footer .footer .derechos p{
     .section-carta{
         padding: 70px 0;
     }
+
+    /*PROMOCIONES*/
+
+
+    .promotions-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .promotion-item{
+        width: 300px;
+        height: 220px;
+    }
 }
-}
+
 
 @media screen and (max-width:440px){
 
