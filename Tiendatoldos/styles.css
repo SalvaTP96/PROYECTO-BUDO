@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+
+
+.header{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding:  0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    line-height: 80px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.nav-menu-link{
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background-color: #034574;
+    transition: .5s;
+}
+
+.nav-toggle{
+    background: none;
+    border: none;
+    padding: 0 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.section-welcome{
+    margin: 0 auto;
+    height: 60vh;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .1)), url(images/media.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 992px){
+
+    
+    .logo{
+        padding:  0 20px;
+    }
+    
+    .nav-menu{
+        margin-right: 20px;
+    }
+    
+    .nav-menu-item{
+        font-size: 18px;
+        margin: 0 6px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        height: 60px;
+
+    }
+    
+    .logo{
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+    
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        background-color: rgba(44, 62, 80, 0.98);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        left: 100%;
+        transition: left .3s;
+    }
+    
+    .nav-menu-item{
+        line-height: 70px;
+    }
+    
+    
+    .nav-menu-link:hover,
+    .nav-menu-link_active{
+        background: none;
+        color:#83c5f7;
+        transition: .5s;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }
+
+    .section-welcome{
+        height: 50vh;
+    }
+}
