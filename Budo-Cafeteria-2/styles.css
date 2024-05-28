@@ -698,6 +698,11 @@ footer .footer .derechos p{
         font-size: 1.6em;
     }
 
+    .promotions-container{
+        grid-column-gap: 40px;
+
+    }
+
 }
 
 @media screen and (max-width:992px){
@@ -784,6 +789,10 @@ footer .footer .derechos p{
         width: 80%;
     }
 
+    .promotion-item{
+        width: 300px;
+        height: 220px;
+    }
   
 
 }
@@ -840,8 +849,8 @@ footer .footer .derechos p{
     }
 
     .promotion-item{
-        width: 300px;
-        height: 220px;
+        width: 280px;
+        height: 200px;
     }
 }
 
@@ -866,6 +875,21 @@ footer .footer .derechos p{
     
     .donde-estamos h2{
         font-size: 2.4em;
+    }
+
+    .promotion-item h1{
+        font-size: 4 rem;
+        font-weight: bolder;
+    }
+    
+    .promotion-item h2{
+        font-size: 1.8rem;
+        letter-spacing: 3px;
+    
+    }
+    
+    .promotion-item p{
+        font-size: 1 rem;
     }
 }
 
