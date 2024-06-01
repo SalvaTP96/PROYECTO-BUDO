@@ -134,6 +134,29 @@
     animation-duration:2s;
   }
 
+/*PROMOCIONES*/
+
+  .promotion-item{
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    -o-animation:fadeIn ease-in 1;
+    -ms-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    -ms-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:.8s;
+    -moz-animation-duration:.8s;
+    -o-animation-duration:.8s;
+    -ms-animation-duration:.8s;
+    animation-duration:.8s;
+  }
+
 /*CONTACTO*/
 
   .section-contact h1, .container{
