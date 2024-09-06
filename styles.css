@@ -523,7 +523,7 @@ footer .footer .derechos p{
 }
 
 .button-return{
-    padding-top: 40px;
+    margin: 10px 0px 30px 10px;
     width: 70px;
 }
 
@@ -636,8 +636,8 @@ footer .footer .derechos p{
 
 
 .alergenos img{
-    width: 40px;
-    height: 50px;
+    width: 40px !important;
+    height: 50px !important;
 }
 
 /*PROMOCIONES*/
@@ -852,6 +852,19 @@ footer .footer .derechos p{
 
     }
 
+    /*APARTADOS CARTA*/
+
+    .button-return{
+        margin: 8px 0 25px 8px;
+    }
+
+    .content-carta{
+        grid-template-columns: 
+    repeat(
+        3, 1fr
+    );
+    }
+
 }
 
 @media screen and (max-width:992px){
@@ -888,6 +901,21 @@ footer .footer .derechos p{
         gap: 50px;
     }
 
+    /*APARTADOS CARTA*/
+
+    .button-return{
+        margin: 0px 0 20px 0px;
+    }
+
+    .content-carta{
+        grid-template-columns: 
+    repeat(
+        2, 1fr
+    );
+    grid-gap: 30px;
+    grid-row-gap: 60px;
+    }
+
     /*PROMOCIONES*/
 
     .section-promotions{
@@ -908,7 +936,7 @@ footer .footer .derechos p{
 }
 
 
-@media screen and (max-width:760px){
+@media screen and (max-width:770px){
 
     .logo-principal img{
         width: 600px;
@@ -1048,6 +1076,26 @@ footer .footer .derechos p{
     
     .promotion-item p{
         font-size: 1 rem;
+    }
+
+    /*APARTADOS CARTA*/
+
+    .content-carta{
+        grid-template-columns: 
+    repeat(
+        1, 1fr
+    );
+    grid-row-gap: 40px;
+    }
+
+    .carta-item{
+        width: 380px !important;
+        }
+    
+    .carta-item img{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
     }
 }
 
