@@ -10,276 +10,406 @@
         <link rel="stylesheet" href="animaciones.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar">
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-toggle="collapse" 
-                        data-target="#navbarNav" 
-                        aria-controls="navbarNav" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="carta.html">Carta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="promociones.html">Promociones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galería</a>
-                        </li>
+    <body class="body-breakfast">
 
-                    </ul>
+            <section class="button-return">
+
+                <div class="button-return">
+                    
+                    <a href="carta.html">
+                    <button class="button">
+                        <div class="button-box">
+                          <span class="button-elem">
+                            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+                            </svg>
+                          </span>
+                          <span class="button-elem">
+                            <svg viewBox="0 0 46 40">
+                              <path
+                                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+                              ></path>
+                            </svg>
+                          </span>
+                        </div>
+                    </button>
+                </a>
                 </div>
-            </nav>
-            <div>
-        </header>
-
-            <section class="section-carta">
                 
-                <div class="carta-container">
-                    
-                        <button class="carta-btn btn-1" id="toggleCarta"><i class="animation"></i>DESAYUNOS<i class="animation"></i></button>
-                        <div class="hidden" id="carta1">
-                            <div class="container-items">
-                                <div class="carta-item">
-                                    <h2>Cafes</h2>
-                                    <ul>
-                                        <li>Cafe solo</li>
-                                        <li>Cafe cortado</li>
-                                        <li>Cafe con leche</li>
-                                        <li>Cafe bombon</li>
-                                        <li>Cafe americano</li>
-                                        <li>Carajillo</li>
-                                        <li>Carajillo quemado</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="carta-item">
-                                    <h2>Tostadas</h2>
-                                    <ul>
-                                        <li>Aceite</li>
-                                        <li>Tomate</li>
-                                        <li>Mantequilla</li>
-                                        <li>Mermelada</li>
-                                        <li>Jamon york</li>
-                                        <li>Queso</li>
-                                        <li>Atun</li>
-                                        <li>Anchoas</li>
-                                        <li>Tortilla de patatas</li>
-                                        <li>Jamon al corte</li>
-                                    </ul>
-                                </div>
-    
-                                <div class="carta-item">
-                                    <h2>Zumos</h2>
-                                    <ul>
-                                        <li>Zumo de naranja natural</li>
-                                        <li>Zumo de melocoton</li>
-                                        <li>Zumo de piña</li>
-                                        <li>Vaso de leche</li>
-                                        <li>Nesquik</li>
-                                        <li>Batido de chocolate</li>
-                                    </ul>
-                                </div>
+            </section>
 
-                            </div>
-                        </div>
+            <section class="content-carta">
 
-                        <button class="carta-btn btn-2" id="toggleCarta2"><i class="animation"></i>TAPAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta2">
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="item">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
                             
-                            <div class="container-items">
-                                <div class="carta-item">
-                                    <h2>Tapas</h2>
-                                    <ul>
-                                        <li>Ensaladilla rusa</li>
-                                        <li>Magro con tomate</li>
-                                        <li>Pincho de tortilla</li>
-                                        <li>Boquerones en vinagre</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="carta-item">
-                                    <h2>Raciones</h2>
-                                    <ul>
-                                        <li>Patatas a la brava</li>
-                                        <li>Queso en tempura</li>
-                                        <li>Calamares a la andaluza</li>
-                                        <li>Jamon 50% iberico al corte</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-    
-                                <div class="carta-item">
-                                    <h2>Unidades</h2>
-                                    <ul>
-                                        <li>Croquetas de jamon</li> <li></li>
-                                        <li>Croquetas de pollo</li>
-                                        <li>Croquetas de parmesano y cebolla caramelizada</li>
-                                        <li>Croquetas mexicanas</li> 
-                                        <li>Croquetas de rabo de toro</li>
-                                        <li>Torreznos</li>
-                                        <li>Mejillon Tigre</li>
-                                        <li>Jalapeños rellenos de cheddar</li>
-                                        <li>Huevos rellenos</li>
-                                       
-                                    </ul>
-                                </div>
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
 
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
                             </div>
                             
                         </div>
-
-                        <button class="carta-btn btn-3" id="toggleCarta3"><i class="animation"></i>BOCADILLOS<i class="animation"></i></button>
-                        <div class="hidden" id="carta3">
-                            <div class="container-items">
-                                <div class="carta-item">
-                                    <h2>Bocadillos</h2>
-                                    <ul>
-                                        <li>Pechuga de pollo</li>
-                                        <li>Salchichas</li>
-                                        <li>Morcilla</li>
-                                        <li>Lomo Fresco</li>
-                                        <li>Lomo Adobado</li>
-                                        <li>Bacon</li>
-                                        <li>Chistorra</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="carta-item">
-                                    <h2>Especiales</h2>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-    
-                            </div>
-                        </div>
-
-                        <button class="carta-btn btn-4" id="toggleCarta4"><i class="animation"></i>HAMBURGUESAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta4">
-                            <div class="container-items">
-                                <div class="carta-item">
-                                    <h2>Hamburguesas</h2>
-                                    <ul>
-                                        <li>Barbuda....</li>
-                                        <li>Porky Cindy....</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="carta-item">
-                                    <h2>Mini Burguers</h2>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-    
-                            </div>
-                        </div>
-
-                        <button class="carta-btn btn-5" id="toggleCarta5"><i class="animation"></i>BEBIDAS<i class="animation"></i></button>
-                        <div class="hidden" id="carta5">
-                            <div class="container-items">
-                                <div class="carta-item">
-                                    <h2>Refrescos</h2>
-                                    <ul>
-                                        <li>Coca Cola</li>
-                                        <li>Coca Cola Zero</li>
-                                        <li>Coca Cola Zero Zero</li>
-                                        <li>Fanta Naranja</li>
-                                        <li>Fanta Limon</li>
-                                        <li>Nestea</li>
-                                        <li>Aquarius</li>
-                                        <li>Agua Pequeña</li>
-                                        <li>Agua Grande</li>
-                                        <li>Biter Kass</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="carta-item">
-                                    <h2>Cervezas</h2>
-                                    <ul>
-                                        <li>Caña Pequeña</li>
-                                        <li>Caña Grande</li>
-                                        <li>Pinta</li>
-                                        <li>1/5</li>
-                                        <li>1/3 Mahou 5*</li>
-                                        <li>1/3 Alhambra 1925</li>
-                                        <li>1/3 Stella Artois</li>
-                                        <li>1/3 Leffe</li>
-                                        <li>1/3 Victoria Malaga</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-
-                                <div class="carta-item">
-                                    <h2>Vinos</h2>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-    
-                                <div class="carta-item">
-                                    <h2>Cubatas</h2>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
+                    </div>
                     
                 </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="carta-item">
+                    <div class="item">
+                        <img src="images/imagen-header1.jpg" alt="">
+                        <div class="item-text">
+                            <h1>Item 1</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique neque, nostrum ea quod quam voluptatum? At dolorum cumque ipsum eius corrupti, alias eaque reiciendis necessitatibus temporibus rem tenetur, numquam error?</p>
+                            <div class="alergenos">
+                                <img src="images/IconoAlergenoLacteos-DairyProducts_icon-icons.com_67597.svg" alt="lacteos">
+                            
+                                <img src="images/IconoAlergenoHuevo-Egg_icon-icons.com_67598.svg" alt="huevo">
+
+                                <img src="images/IconoAlergenoCacahuete-Peanuts_icon-icons.com_67604.svg" alt="cacahuete">
+
+                                <img src="images/IconoAlergenoMoluscos-Mollusks_icon-icons.com_67596.svg" alt="moluscos">
+
+
+                                <img src="images/IconoAlergenoAltramuces-Lupins_icon-icons.com_67606.svg" alt="altramuces">
+                                
+                                <img src="images/IconoAlergenoApio-Celery_icon-icons.com_67605.svg" alt="apio">
+
+                                <img src="images/IconoAlergenoGluten-Gluten_icon-icons.com_67600.svg" alt="gluten">
+
+                                <img src="images/IconoAlergenoDioxidoAzufreSulfitosSulfurDioxideSulphites_icon-icons.com_67602.svg" alt="sulfitos">
+
+                                <img src="images/IconoAlergenoGranosSesamo-SesameGrains_icon-icons.com_67599.svg" alt="granos de sesamo">
+
+                                <img src="images/IconoAlergenoFrutosCascaraPeelFruits_icon-icons.com_67601.svg" alt="frutos secos con piel">
+
+                                <img src="images/IconoAlergenoMostaza-Mustard_icon-icons.com_67595.svg" alt="mostaza">
+
+                                <img src="images/Soy_icon-icons.com_67593.svg" alt="soja">
+
+                                <img src="images/Fish_icon-icons.com_67594.svg" alt="pescado">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
             </section>
             
 
