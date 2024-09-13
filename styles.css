@@ -13,7 +13,7 @@ body{
 /*ESTILOS GENERALES*/
 
 .navbar {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, .65);
     transition: background-color .5s ease;
     font-size: 1.4em;
     position: fixed !important;
@@ -407,7 +407,6 @@ footer .footer .derechos p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 200px 0;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/imagen-header1.jpg);
     background-size: cover; 
     background-position: bottom;
@@ -508,7 +507,7 @@ footer .footer .derechos p{
 
 /*APARTADOS CARTA*/
 
-.body-breakfast{
+.body-carta{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/imagen-header1.jpg);
     background-size: cover; 
     background-position: bottom;
@@ -602,6 +601,10 @@ footer .footer .derechos p{
   .button-return{
     display: flex;
     justify-content: end;
+  }
+
+  .pre-carta{
+    margin-top: -70px;
   }
   
   .content-carta{
@@ -1024,7 +1027,12 @@ footer .footer .derechos p{
     /*CARTA*/
 
     .section-carta{
-        padding: 70px 0;
+        padding: 100px 0;
+    }
+
+    .carta-container{
+    width: 80%;
+
     }
 
      /*APARTADOS CARTA*/
