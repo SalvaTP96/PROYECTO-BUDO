@@ -10,56 +10,44 @@
         <link rel="stylesheet" href="animaciones.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="navbar">
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-toggle="collapse" 
-                        data-target="#navbarNav" 
-                        aria-controls="navbarNav" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <body class="body-carta">
+        <section class="button-return">
+
+            <div class="button-return">
+                
+                <a href="carta.html">
+                <button class="button">
+                    <div class="button-box">
+                      <span class="button-elem">
+                        <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+                        </svg>
+                      </span>
+                      <span class="button-elem">
+                        <svg viewBox="0 0 46 40">
+                          <path
+                            d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="carta.html">Carta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="promociones.html">Promociones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galería</a>
-                        </li>
+            </a>
+            </div>
+            
+        </section>
 
-                    </ul>
-                </div>
-            </nav>
-            <div>
-        </header>
-
-            <section class="section-carta">
+            <section class="section-carta pre-carta">
                 
                 <div class="carta-container">
                     
-                        <button class="carta-btn btn-1" id="toggleCarta"><i class="animation"></i><a class="nav-link" href="pre-desayunos.html">Desayunos</a><i class="animation"></i></button>
+                        <button class="carta-btn btn-1" id="toggleCarta"><i class="animation"></i><a class="nav-link" href="carta-desayunos.html">Cafés</a><i class="animation"></i></button>
                         
-                        <button class="carta-btn btn-2" id="toggleCarta2"><i class="animation"></i><a class="nav-link" href="carta-tapas.html">Tapas</a><i class="animation"></i></button>
+                        <button class="carta-btn btn-2" id="toggleCarta2"><i class="animation"></i><a class="nav-link" href="carta-tapas.html">Tostadas</a><i class="animation"></i></button>
                         
-                        <button class="carta-btn btn-3" id="toggleCarta3"><i class="animation"></i><a class="nav-link" href="carta-bocadillos.html">bocadillos</a><i class="animation"></i></button>
-                       
-                        <button class="carta-btn btn-4" id="toggleCarta4"><i class="animation"></i><a class="nav-link" href="carta-bebidas.html">bebidas</a><i class="animation"></i></button>
-                       
-                        <button class="carta-btn btn-5" id="toggleCarta5"><i class="animation"></i><a class="nav-link" href="carta-hamburguesas.html">hamburguesas</a><i class="animation"></i></button>
-                    
+                        <button class="carta-btn btn-3" id="toggleCarta3"><i class="animation"></i><a class="nav-link" href="carta-bocadillos.html">bollería</a><i class="animation"></i></button>
+                                          
                 </div>
             </section>
             
@@ -138,13 +126,6 @@
             </div>
             
         </footer>
-      
-        
-        <script src="script.js" async defer></script>
-        <script src="script-carta.js" async defer></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script src="script-scroll.js"></script>
+
     </body>
 </html>
