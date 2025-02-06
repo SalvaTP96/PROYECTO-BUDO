@@ -328,8 +328,8 @@ footer .footer .derechos p{
 .section-3{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/Screenshot\ 2025-02-01\ 160025.jpg); 
     background-size: cover; 
-    background-position: bottom;
-    background-attachment: fixed;
+    background-position: center;
+
 }
 
 .donde-estamos{
@@ -484,6 +484,7 @@ footer .footer .derechos p{
     background-size: cover; 
     background-position: bottom;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .button-return{
@@ -594,12 +595,15 @@ footer .footer .derechos p{
   }
 
  .carta-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 350px ;
     color: #fff;
     background-color: #6c4f37;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 20px 40px;
     }
 
 .carta-item img{
@@ -615,6 +619,16 @@ footer .footer .derechos p{
     width: 40px !important;
     height: 40px !important;
     box-shadow: none;
+}
+
+.content-bebidas{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+    background-color: #6c4f37;
+    max-width: 300px;
 }
 
 /*PROMOCIONES*/
