@@ -463,6 +463,7 @@ footer .footer .derechos p{
     flex-direction: column;
     padding: 9px 10px;
     color: #fff;
+    z-index: 1;
 }
 
 .button-return{
