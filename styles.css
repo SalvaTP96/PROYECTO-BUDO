@@ -786,7 +786,11 @@ footer .footer .derechos p{
   }
 
 
-
+@media  screen and (max-width: 1920px) {
+    .carta-container{
+        margin-top: 10%;
+    }
+}
 
 @media screen and (max-width:1350px){
     
